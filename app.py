@@ -12,7 +12,16 @@ import pickle
 import os
 
 # Membuka file model
-customer_churn_model = pickle.load(open("customer_churn.pkl", 'rb'))
+
+# Mendapatkan direktori saat ini
+current_directory = os.path.dirname(__file__)
+
+# Mendapatkan path lengkap ke file "customer_churn.pkl"
+model_path = os.path.join(current_directory, "customer_churn.pkl")
+
+# Membuka file model
+customer_churn_model = pickle.load(open(model_path, 'rb'))
+
 
 st.title("Customer Churn Prediction using Machine Learning")
 
