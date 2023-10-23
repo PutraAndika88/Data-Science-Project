@@ -12,7 +12,7 @@ import pickle
 import os
 
 # Membuka file model
-customer_churn_model = pickle.load(open(customer_churn.pkl, 'rb'))
+customer_churn_model = pickle.load(open(customer_churn.sav, 'rb'))
 
 
 st.title("Customer Churn Prediction using Machine Learning")
