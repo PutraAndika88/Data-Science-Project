@@ -8,13 +8,7 @@ Original file is located at
 """
 
 import streamlit as st
-import pandas as pd
 import pickle
-from PIL import Image
-
-import pickle
-import streamlit as st
-
 
 #Loading th saved model
 
