@@ -10,7 +10,6 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import pickle
-import time
 from PIL import Image
 
 import pickle
